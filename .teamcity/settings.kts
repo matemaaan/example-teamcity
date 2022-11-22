@@ -35,7 +35,7 @@ project {
 object BBuild : BuildType({
     name = "bBuild"
 
-    artifactRules = "target/*.jar => target"
+    artifactRules = "target/*jar => target"
 
     params {
         param("name", "Dmitry")
